@@ -1,0 +1,56 @@
+*,::after, ::before{
+    margin:0; 
+    padding:0; 
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+img{
+    width:100%; 
+    height:auto; 
+}
+.container{
+    width: 1500px;
+    margin:auto; 
+}
+.image-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+    gap:30px;
+}
+.image-box{
+    padding:20px;
+    border-radius:10px; 
+    background:#ddd; 
+    margin:10px; 
+}
+.image-box img{
+    width:100%; 
+    height:300px;
+    object-fit: cover; 
+    border-radius:10px; 
+}
+.image-box p{
+    font-size:24px; 
+    font-weight:600; 
+    font-family:sans-serif;
+}
+.image-box .download-button{
+    padding:15px 30px; 
+    background:green; 
+    color:white; 
+    font-size: 22px;
+    font-weight:500;
+    border-radius:5px;
+    display:block;
+    text-align:center;
+    margin-top:20px;
+    font-family:sans-serif;
+    cursor:pointer;
+    width:80%;
+    margin:20px auto;
+}
+.image-box .download-button:hover{
+    background:black;
+}
